@@ -1,5 +1,6 @@
 # peel
 
+
 ```bash
 export BUNDLE_SRC=$PWD/filter-benchmark
 cd "$BUNDLE_SRC"
@@ -19,4 +20,7 @@ cd "$BUNDLE_BIN"
 # getting HELP on PEEL usage
 ./peel.sh -h 
 ```
+
+> For details see this site: http://peel-framework.org/manual/motivation.html
+
 
