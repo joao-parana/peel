@@ -12,6 +12,11 @@ mvn archetype:generate -B                         \
     -DarchetypeVersion=1.1.8
 cd "peel-wordcount"
 mvn clean deploy
-cd "$BUNDLE_BIN/peel-wordcount"
+mkdir -p bin
+mv peel-wordcount-bundle/target/peel-wordcount/* bin/
+export BUNDLE_BIN=$PWD/bin
+cd "$BUNDLE_BIN"
+# geting HELP on PEEL usage
+./peel.sh -h 
 ```
 
