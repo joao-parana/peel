@@ -16,7 +16,7 @@ mkdir -p bin
 mv peel-wordcount-bundle/target/peel-wordcount/* bin/
 export BUNDLE_BIN=$PWD/bin
 cd "$BUNDLE_BIN"
-# geting HELP on PEEL usage
+# getting HELP on PEEL usage
 ./peel.sh -h 
 ```
 
